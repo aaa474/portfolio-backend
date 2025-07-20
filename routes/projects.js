@@ -15,7 +15,7 @@ const projects = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/AI_icon.svg/1024px-AI_icon.svg.png',
     github: 'https://github.com/aaa474/AI-Fitness-Coach',
     demo: 'https://magnificent-snickerdoodle-9fad65.netlify.app/',
-  }
+  },
   {
     id: 2,
     title: 'Interactive Portfolio Website',
