@@ -4,6 +4,20 @@ const router = express.Router();
 const projects = [
   {
     id: 1,
+    title: 'AI Fitness Coach',
+    date: 'Jul 2025',
+    tech: ['React', 'Tailwind CSS', 'Flask', 'Python', 'MongoDB', 'JavaScript', 'AWS'],
+    highlights: [
+      'Built a full-stack AI-driven fitness and diet planner that generates personalized workout and meal plans based on user inputs, leveraging AWS-hosted machine learning models',
+      'Designed a responsive React frontend with animated section transitions, chat-based guidance, form validation, and a visual timeline for tracking user progress and weight changes',
+      'Connected a Flask backend with MongoDB to manage user accounts, store plans and logs, and support features like downloadable PDFs, multilingual UI, and gamified achievements',
+    ],
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/AI_icon.svg/1024px-AI_icon.svg.png',
+    github: 'https://github.com/aaa474/AI-Fitness-Coach',
+    demo: 'https://magnificent-snickerdoodle-9fad65.netlify.app/',
+  }
+  {
+    id: 2,
     title: 'Interactive Portfolio Website',
     date: 'Jun 2025',
     tech: ['React', 'Three.js', 'Tailwind CSS', 'Express', 'Node.js', 'JavaScript', 'Python', 'Flask', 'MongoDB'],
@@ -14,10 +28,10 @@ const projects = [
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/9/94/Periodic_table_large.png',
     github: 'https://github.com/aaa474/NJ-Transit-Railway-Health',
-    demo: 'https://periodic-chem.web.app',
+    demo: 'https://silver-meringue-ae4326.netlify.app/',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Quantum Circuit Visualizer',
     date: 'Jun 2025',
     tech: ['JavaScript', 'HTML', 'CSS', 'Python', 'Qiskit', 'Flask'],
@@ -31,7 +45,7 @@ const projects = [
     demo: 'https://quantum-visualizer.web.app',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Truth Table Converter',
     date: 'Dec 2024',
     tech: ['C'],
@@ -45,7 +59,7 @@ const projects = [
     demo: '',
   },
   {
-    id: 4,
+    id: 5,
     title: 'NJ Transit Railway System',
     date: 'Oct 2024',
     tech: ['Python', 'JavaScript'],
